@@ -69,8 +69,8 @@ For example, if KiCad is installed but its command is not on PATH:
 
 The configuration and action log are saved in your user profile:
 
-- Windows: `%APPDATA%/esim-tool-manager`
-- Linux: `$XDG_CONFIG_HOME/esim-tool-manager`, or `~/.config/esim-tool-manager`
+- Windows: %APPDATA%/esim-tool-manager
+- Linux: $XDG_CONFIG_HOME/esim-tool-manager, or ~/.config/esim-tool-manager
 
 ## How to run on Windows
 
@@ -88,7 +88,7 @@ Open a terminal in this project folder, then run:
     python3 -m esim_tool_manager list
     python3 -m esim_tool_manager install ngspice --dry-run
 
-APT is used on Debian/Ubuntu systems. Other Linux distributions can use `config set-path` for detection; their package-manager install commands are outside this prototype scope.
+APT is used on Debian/Ubuntu systems. Other Linux distributions can use config set-path for detection; their package-manager install commands are outside this prototype scope.
 
 ## Design and learning
 
@@ -98,8 +98,8 @@ APT is used on Debian/Ubuntu systems. Other Linux distributions can use `config 
 ## Submission checklist
 
 1. Create a private GitHub repository and upload this project.
-2. Give repository access to **Eyantra698Sumanto**.
+2. Give repository access to **Eyantra698Sumanto** and **OfficialVarad**.
 3. Email the repository link and report to **contact-esim@fossee.in**.
-4. Use the subject line: **eSim Semester Long Internship - Autumn 2026 Submission Task 5**.
+4. Use the subject line: **eSim Winter Internship - 2026 Submission Task 5**.
 
-The optional presentation can show `list`, `check`, a dry-run install plan, and a real installation only if you choose to approve it.
+The optional presentation can show list, check, a dry-run install plan, and a real installation only if you choose to approve it.
